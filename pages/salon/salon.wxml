@@ -1,0 +1,53 @@
+<!-- pages/salon/salon.wxml -->
+<view class="salon" hover-class="" hover-stop-propagation="false">
+    <view class="salon-main">
+        <view class="salon-pic">
+            <image class="salon-img" src="../../icon/salonClass.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload=""></image>
+        </view>
+        <view class="icons">
+            <view class="icon-shoucang">
+                <image class="shoucang-img" src="../../icon/shoucang.png" mode="center" lazy-load="false" binderror="" bindload=""></image>
+                <text class="iconfont">\n52</text>
+            </view>
+            <view class="icon-shizhong">
+                <image class="shizhong-img" src="../../icon/comment.png" mode="center" lazy-load="false" binderror="" bindload=""></image>
+                <text class="iconfont">\n52</text>
+            </view>
+            <view class="icon-fenxiang">
+                <image class="fenxiang-img" src="../../icon/fenxiang.png" mode="center" lazy-load="false" binderror="" bindload=""></image>
+                <text class="iconfont">\n52</text>
+            </view>
+        </view>
+        <view class="salon-body" hover-class="none" hover-stop-propagation="false">
+            <!-- 沙龙详情 -->
+            <view class="salon-detail">
+                <text class="salon-time" selectable="false" space="false" decode="false">
+                    沙龙时间：2020.11.03-11.09
+                </text>
+                <text class="salon-speaker" selectable="false" space="false" decode="false">
+                    主讲成员：周杰逊、将朝南
+                </text>
+            </view>
+            <!-- 沙龙课程简介 -->
+            <view class="salon-class-intro" hover-class="none" hover-stop-propagation="false">
+                <view class="title">
+                    <text class="title-bar">a</text>
+                    <text class="title-detail">课程介绍</text>
+                </view>
+                <view class="class-introduction">
+                    虾忌与某些水果同吃。虾合有比较丰富的蛋白质和钙等营养物质，如果把它们与含有鞣酸的水果，如葡萄、石榴、山楂、柿子等同食，不仅会降低蛋白质的营养价值，而且鞣酸和钙酸结合形成鞣酸钙后会刺激肠胃。
+                </view>
+            </view>
+            <!-- 团队介绍 -->
+            <view class="team-intro" hover-class="none" hover-stop-propagation="false">
+                <view class="title">
+                    <text class="title-bar">a</text>
+                    <text class="title-detail">主讲团队</text>
+                </view>
+                <scroll-view class="team-scroll" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" bindscrolltoupper="" bindscrolltolower="" bindscroll=""></scroll-view>
+            </view>
+            <!-- 评价 -->
+            <view class="salon-comment" hover-class="none" hover-stop-propagation="false"></view>
+        </view>
+    </view>
+</view>
