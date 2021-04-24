@@ -1,0 +1,17 @@
+<!-- pages/myself/myself.wxml -->
+<!-- 自己看自己个人用户主页 -->
+<view class="myself-top"></view>
+<view class="user-image">
+    <image src="../../images/user-image.jpg" />
+</view>
+<view user-name>想不出名字啦</view>
+<view class="user-follow">
+    <text class="followed">关注</text>
+    <text class="num">12</text>
+    <text class="follower">粉丝</text>
+    <text class="num">12</text>
+</view>
+<view class="myself-main">
+    <view class=""></view>
+</view>
+<view class="myself-bottom">......已经到底啦......</view>

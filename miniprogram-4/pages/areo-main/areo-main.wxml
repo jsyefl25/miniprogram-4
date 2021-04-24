@@ -1,0 +1,158 @@
+<!-- pages/areo-main/areo-main.wxml -->
+<view class="areo-main">
+    <!-- 个人信息头部 -->
+    <view class="areo-top">
+        <view class="user">
+            <image class="user-image" src="../../images/user-image.jpg" mode="aspectFit" lazy-load="false" binderror="" bindload=""></image>
+            <view class="user-info">
+                <text class="user-name">想不出名字啦</text>
+                <view class="user-customization-block">
+                    <text class="user-customization">我的艺术定制</text>
+                </view>
+            </view>
+        </view>
+        <view class="follow-block">
+            <text class="user-tag">能不能不上课呀！！！！</text>
+            <text class="user-follow">
+                <text class="followed">
+                    <text class="follow-title">关注</text>
+                    <text class="num">12</text>
+                </text>
+                <text class="follower">
+                    <text class="follow-title">粉丝</text>
+                    <text class="num">12</text>
+                </text>
+            </text>
+        </view>
+    </view>
+    <!-- areo-body -->
+    <view class="areo-body-box">
+        <view class="areo-body">
+            <view class="title">
+                <view class="title-bar"></view>
+                <text class="title-name">我的日程</text>
+            </view>
+            <view class="schedule-and-order">
+                <text>广州车展2021年7月5日 14：00</text>
+            </view>
+            <view class="title">
+                <view class="title-bar"></view>
+                <text class="title-name">我的订单</text>
+            </view>
+            <view class="schedule-and-order">
+                <text>2个待使用</text>
+            </view>
+            <view class="title">
+                <view class="title-bar"></view>
+                <text class="title-name">我的收藏</text>
+            </view>
+            <view class="collection-block">
+                <view class="collection-item">
+                    <text class="category">展览</text>
+                    <text class="collection-count">共12个</text>
+                </view>
+                <view class="collection-item">
+                    <text class="category">沙龙</text>
+                    <text class="collection-count">共12个</text>
+                </view>
+                <view class="collection-item">
+                    <text class="category">Live</text>
+                    <text class="collection-count">共12个</text>
+                </view>
+            </view>
+            <view class="title">
+                <view class="title-bar"></view>
+                <text class="title-name">历史踪迹</text>
+            </view>
+        </view>
+        <view class="areo-history-track">
+            <view class="history-block">
+                <view class="title-line"></view>
+                <view class="box">
+                    <view class="date">一天前</view>
+                </view>
+            </view>
+            <view class="history-block">
+                <view class="scroll-line"></view>
+                <scroll-view class="history-scroll" scroll-x="true" bindscroll="">
+                    <view class="history-item">
+                        <view class="pic-box">
+                            <image class="pic" src="../../images/album.jpg" />
+                        </view>
+                        <view class="text-box">
+                            <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                        </view>
+                    </view>
+                    <view class="history-item">
+                        <view class="pic-box">
+                            <image class="pic" src="../../images/album.jpg" />
+                        </view>
+                        <view class="text-box">
+                            <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                        </view>
+                    </view>
+                    <view class="history-item">
+                        <view class="pic-box">
+                            <image class="pic" src="../../images/album.jpg" />
+                        </view>
+                        <view class="text-box">
+                            <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                        </view>
+                    </view>
+                    <view class="history-item">
+                        <view class="pic-box">
+                            <image class="pic" src="../../images/album.jpg" />
+                        </view>
+                        <view class="text-box">
+                            <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class="history-block">
+                <view class="title-line"></view>
+                <view class="box">
+                    <view class="date">一天前</view>
+                </view>
+            </view>
+            <view class="history-block">
+                <view class="scroll-line"></view>
+                <scroll-view class="history-scroll" scroll-x="true" bindscroll="">
+                    <view class="history-item">
+                        <view class="pic-box">
+                            <image class="pic" src="../../images/album.jpg" />
+                        </view>
+                        <view class="text-box">
+                            <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                        </view>
+                    </view>
+                    <view class="history-item">
+                        <view class="pic-box">
+                            <image class="pic" src="../../images/album.jpg" />
+                        </view>
+                        <view class="text-box">
+                            <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                        </view>
+                    </view>
+                    <view class="history-item">
+                        <view class="pic-box">
+                            <image class="pic" src="../../images/album.jpg" />
+                        </view>
+                        <view class="text-box">
+                            <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                        </view>
+                    </view>
+                    <view class="history-item">
+                        <view class="pic-box">
+                            <image class="pic" src="../../images/album.jpg" />
+                        </view>
+                        <view class="text-box">
+                            <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+        </view>
+        <view class="areo-bottom">......已经到底啦......</view>
+    </view>
+</view>
