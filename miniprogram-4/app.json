@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/myself/myself",
-    "pages/areo-main/areo-main",
-    "pages/order-form/order-form",
-    "pages/schedule/schedule",
     "pages/myorder/myorder",
+    "pages/areo-main/areo-main",
+    "pages/schedule/schedule",
+    "pages/myself/myself",
+    "pages/order-form/order-form",
     "pages/class/class",
     "pages/salon/salon",
     "pages/index/index",

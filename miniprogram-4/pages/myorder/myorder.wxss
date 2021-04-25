@@ -1,1 +1,88 @@
 /* pages/myorder/myorder.wxss */
+.myorder-main-box{
+    padding: 30rpx 42rpx 0 42rpx;
+}
+.order{
+    width: 100%;
+    margin-bottom: 64rpx;
+    display: flex;
+}
+.item-block{
+    margin-top: 50rpx;
+    width: 100%;
+    height: 398rpx;
+    border: 2rpx solid #139bf5;
+    border-radius: 20rpx;
+    box-shadow: 0 3rpx 10rpx rgb(200,200,200) inset,0 3rpx 10rpx rgb(200,200,200);
+    box-sizing: border-box;
+}
+.item-block .item-top{
+    height: 180rpx;
+    display: flex;
+}
+.item-img{
+    position: absolute;
+    height: 50rpx;
+    box-shadow: rgb(200,200,200);
+    /* 阴影 */
+}
+.item-pic{
+    width: 174rpx;
+    height: 200rpx;
+    margin-left: 48rpx;
+    border-radius: 10rpx;
+    box-shadow: 5rpx 5rpx 5rpx rgb(200,200,200), -5rpx 0 5rpx rgb(200,200,200);
+}
+.item-detail{
+    padding-top: 20rpx;
+    margin-left: 260rpx;
+    /* padding-right: 48rpx; */
+    letter-spacing: 2rpx;
+}
+.item-detail .item-title{
+    display: block;
+    line-height: 42rpx;
+    font-size: 32rpx;
+    color: #4F73A5;
+}
+.item-detail .item-date{
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: block;
+    line-height: 28rpx;
+    font-size: 20rpx;
+    padding-top: 20rpx;
+    color: rgb(142, 142, 142);
+}
+.item-block .item-bottom{
+    display: inline-block;
+    font-weight: 200;
+    font-size: 20rpx;
+    line-height: 38rpx;
+    padding-left: 52rpx;
+}
+.myorder-main-box .main-bottom{
+    margin-top: 90rpx;
+    color: #006AD7;
+    text-align: center;
+    font-size: 22rpx;
+}
+.order .delete{
+    margin-left: 80rpx;
+    margin-top: 104rpx;
+    position: absolute;
+    font-size: 24rpx;
+    line-height: 48rpx;
+    font-weight: 200;
+    color: #4F73A5;
+    display: inline-block;
+    text-align: center;
+    width: 200rpx;
+    border: 2rpx solid #139bf5;
+    border-radius: 20rpx;
+    box-shadow: 0 3rpx 10rpx rgb(200,200,200) inset,0 3rpx 10rpx rgb(200,200,200);
+}
+/* 订单过期效果 */
+.isUsed{
+    filter: brightness(76%) opacity(50%);
+}

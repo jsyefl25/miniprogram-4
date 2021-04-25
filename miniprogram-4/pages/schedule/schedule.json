@@ -1,5 +1,6 @@
 {
   "usingComponents": {},
   "navigationBarTitleText": "我的日程",
-  "navigationBarBackgroundColor": "#041746"
+  "navigationBarBackgroundColor": "#041746",
+  "navigationBarTextStyle": "white"
 }

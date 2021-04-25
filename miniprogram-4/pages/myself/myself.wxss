@@ -1,1 +1,50 @@
 /* pages/myself/myself.wxss */
+.myself{
+    background-color: #041746;
+}
+.myself-top{
+    width: 100%;
+    height: 442rpx;
+    color: #fff;
+    text-align: center;
+}
+.myself-top .user-img-box{
+    padding-top: 88rpx;
+    padding-bottom: 42rpx;
+}
+.myself-top .user-img-box .user-img{
+    width: 164rpx;
+    height: 168rpx;
+    border-radius: 20rpx;
+}
+.myself-top .user-name{
+    text-align: center;
+    height: 42rpx;
+    font-size: 32rpx;
+    font-weight: 700;
+    line-height: 42rpx;
+    margin-bottom: 34rpx;
+}
+.myself-top .user-follow{
+    font-size: 20rpx;
+    display: flex;
+    text-align: center;
+    padding: 0 240rpx 0 240rpx;
+}
+.myself-top .user-follow view{
+    flex: 1;
+}
+.myself-top .user-follow view .num{
+    padding-left: 6rpx;
+}
+
+.myself-main{
+    background-color: #fff;
+    padding: 58rpx 40rpx 0 40rpx;
+    border-radius: 68rpx 68rpx 0 0;
+}
+.myself-main-bottom{
+    padding-top: 60rpx;
+    text-align: center;
+    color: #006AD7;
+}

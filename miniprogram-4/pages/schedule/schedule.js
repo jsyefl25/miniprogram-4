@@ -5,7 +5,19 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    longitude: 113.411806,
+    latitude: 23.053945,
+    scale: 13,
+    markers: [
+      {
+        longitude: 113.411806,
+        latitude: 23.053945,
+        iconPath: '../../static/icon/location-map.png',
+        width: 30,
+        height: 30,
+        alpha: 0.3
+      }
+    ]
   },
 
   /**
