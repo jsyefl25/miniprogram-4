@@ -1,0 +1,171 @@
+/* pages/order-form/order-form.wxss */
+.order-form{
+    width: 654rpx;
+    margin: 0 auto;
+}
+.order-form-top{
+    padding-top: 88rpx;
+    display: flex;
+}
+.item-img{
+    display: inline-block;
+    box-shadow: rgb(187, 187, 187);
+    /* 阴影 */
+}
+.item-pic{
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 20rpx;
+    box-shadow: 5rpx 5rpx 5rpx #a3a3a3, -5rpx 0 5rpx #a3a3a3;
+}
+.item-detail{
+    padding-top: 90rpx;
+    padding-left: 50rpx;
+    /* padding-right: 48rpx; */
+    height: 296rpx;
+    letter-spacing: 2rpx;
+}
+.item-detail .item-title{
+    display: inline-block;
+    line-height: 42rpx;
+    font-size: 32rpx;
+    font-weight: 700;
+    color: rgb(79, 115, 164);
+}
+.item-detail .item-intro{
+    display: inline-block;
+    /* display: flex;
+    flex-wrap: wrap; */
+    line-height: 28rpx;
+    font-size: 20rpx;
+    font-weight: 500;
+    padding-top: 10rpx;
+    color: rgb(142, 142, 142);
+}
+.item-detail .item-cost{
+    display: inline-block;
+    line-height: 28rpx;
+    font-size: 20rpx;
+    font-weight: 500;
+    color: rgb(0, 111, 255);
+    padding-top: 30rpx;
+}
+.title{
+    color: #1E6CB5;
+    font-size: 28rpx;
+    line-height: 30rpx;
+    /* font-family: "PingFang SC"; */
+}
+.title .title-bar{
+    display: inline-block;
+    width: 16rpx;
+    height: 30rpx;
+    background-color: rgb(33, 39, 123);
+    border-radius: 4rpx;
+}
+.title-name{
+    letter-spacing: 6rpx;
+    padding-left: 40rpx;
+}
+.order-form-middle .order-detail{
+    padding-top: 54rpx;
+}
+.order-detail view{
+    display: inline-block;
+    line-height: 32rpx;
+    font-size: 24rpx;
+    padding-bottom: 60rpx;
+    color: rgb(191, 191, 191);
+    letter-spacing: 2rpx;
+}
+.order-detail .detail-title{
+    letter-spacing: 4rpx;
+}
+.order-detail .more-detail{
+    padding-left: 80rpx;
+}
+/* 联系客服 */
+button{
+    width: 654rpx !important;
+    letter-spacing: 2rpx;
+    background-color: rgb(0, 106, 215);
+    color: #fff;
+    font-size: 30rpx;
+    font-weight: 100 !important;
+    margin-top: 10rpx;
+    margin-bottom: 70rpx;
+}
+.order-form-bottom .review{
+    margin-top: 64rpx;
+    height: 316rpx;
+    border-width: 3rpx;
+    border-color: rgb(38, 128, 235);
+    border-top-right-radius: 8rpx;
+    border-top-left-radius: 8rpx;
+    border-bottom-left-radius: 34rpx;
+    border-bottom-right-radius: 34rpx;
+}
+.review-or-living .pic-box{
+    height: 220rpx;
+    margin-top: 64rpx;
+}
+.review-or-living image{
+    width: 100%;
+    height: 230rpx;
+    /* border-top-right-radius: 8rpx;
+    border-top-left-radius: 8rpx;
+    border-bottom-left-radius: 34rpx;
+    border-bottom-right-radius: 34rpx; */
+    border-radius: 8rpx;
+    box-shadow: 5rpx 5rpx 5rpx rgb(19, 41, 63), -5rpx 0 5rpx rgb(19, 41, 63);
+}
+
+.review-or-living .text-box{
+    z-index: -1;
+    height: 100rpx;
+    text-align: center;
+    padding-top: 24rpx;
+    box-sizing: border-box;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-width: 4rpx;
+    background-color: rgb(235, 243, 252);
+    border-color: rgb(45, 112, 231);
+    border-bottom-left-radius: 34rpx;
+    border-bottom-right-radius: 34rpx;
+}
+.review-or-living-text{
+    line-height: 52rpx;
+    font-size: 32rpx;
+    letter-spacing: 4rpx;
+}
+.not-start .pic-box{
+    height: 140rpx;
+    margin-top: 64rpx;
+}
+.not-start image{
+    width: 100%;
+    height: 150rpx;
+    /* border-top-right-radius: 8rpx;
+    border-top-left-radius: 8rpx;
+    border-bottom-left-radius: 34rpx;
+    border-bottom-right-radius: 34rpx; */
+    border-radius: 8rpx;
+    box-shadow: 0rpx 5rpx 5rpx rgb(179, 185, 191), -5rpx 0rpx 5rpx rgb(179, 185, 191);
+}
+.not-start .text-box{
+    z-index: -1;
+    height: 120rpx;
+    text-align: center;
+    padding-top: 38rpx;
+    box-sizing: border-box;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-width: 4rpx;
+    background-color: rgb(235, 243, 252);
+    border-color: rgb(45, 112, 231);
+    border-bottom-left-radius: 34rpx;
+    border-bottom-right-radius: 34rpx;
+}

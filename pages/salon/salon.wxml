@@ -10,6 +10,7 @@
                 <text class="iconfont">\n52</text>
             </view>
             <view class="icon-shizhong">
+                <!-- 要换时钟icon -->
                 <image class="shizhong-img" src="../../icon/comment.png" mode="center" lazy-load="false" binderror="" bindload=""></image>
                 <text class="iconfont">\n52</text>
             </view>
@@ -44,10 +45,77 @@
                     <text class="title-bar">a</text>
                     <text class="title-detail">主讲团队</text>
                 </view>
-                <scroll-view class="team-scroll" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" bindscrolltoupper="" bindscrolltolower="" bindscroll=""></scroll-view>
+                <scroll-view class="team-scroll" enable-flex="true" scroll-x="true" scroll-y="false" upper-threshold="50" lower-threshold="50" scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+                    <view class="team-body" hover-class="none" hover-stop-propagation="false">
+                        <view class="team-member" hover-class="none" hover-stop-propagation="false">
+                            <view>
+                                <image class="member-image" src="../../icon/speaker1.jpg" mode="aspectFill" />
+                            </view>
+                            <text class="member-detail">虾忌与某些水果同吃，虾忌与某些水果同水同吃</text>
+                        </view>
+                        <view class="team-member" hover-class="none" hover-stop-propagation="false">
+                            <view>
+                                <image class="member-image" src="../../icon/speaker2.jpg" mode="aspectFill" />
+                            </view>
+                            <text class="member-detail">虾忌与某些水果同吃，虾忌与某些水果同水同吃</text>
+                        </view>
+                        <view class="team-member" hover-class="none" hover-stop-propagation="false">
+                            <view>
+                                <image class="member-image" src="../../icon/speaker1.jpg" mode="aspectFill" />
+                            </view>
+                            <text class="member-detail">虾忌与某些水果同吃，虾忌与某些水果同水同吃</text>
+                        </view>
+                        <view class="team-member" hover-class="none" hover-stop-propagation="false">
+                            <view>
+                                <image class="member-image" src="../../icon/speaker2.jpg" mode="aspectFill" />
+                            </view>
+                            <text class="member-detail">虾忌与某些水果同吃，虾忌与某些水果同水同吃</text>
+                        </view>
+                    </view>
+                </scroll-view>
             </view>
-            <!-- 评价 -->
-            <view class="salon-comment" hover-class="none" hover-stop-propagation="false"></view>
+            <!-- 评论 -->
+            <view class="salon-comment" hover-class="none" hover-stop-propagation="false">
+                <view class="comment-block" hover-class="none" hover-stop-propagation="false">
+                    <text class="title">评论区</text>
+                    <image class="icon" src="../../icon/comment.png" mode="center"></image>
+                    <text class="comment-num">52</text>
+                </view>
+                <scroll-view class="comment-scroll" enable-flex="true" scroll-x="true" scroll-y="false" upper-threshold="50" lower-threshold="50" scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+                    <!-- <view class="comment-body" hover-class="none" hover-stop-propagation="false"> -->
+                    <view class="comment-item" hover-class="none" hover-stop-propagation="false">
+                        <view class="user">
+                            <image class="user-image" src="../../icon/user-head.jpg" mode="aspectFill" />
+                            <text class="user-name">草间弥尔</text>
+                        </view>
+                        <text class="comment">虾忌与某些水果同吃，虾忌与某些水果同水同吃。</text>
+                    </view>
+                    <view class="comment-item" hover-class="none" hover-stop-propagation="false">
+                        <view class="user">
+                            <image class="user-image" src="../../icon/user-head.jpg" mode="aspectFill" />
+                            <text class="user-name">草间弥尔</text>
+                        </view>
+                        <text class="comment">虾忌与某些水果同吃，虾忌与某些水果同水同吃。</text>
+                    </view>
+                    <view class="comment-item" hover-class="none" hover-stop-propagation="false">
+                        <view class="user">
+                            <image class="user-image" src="../../icon/user-head.jpg" mode="aspectFill" />
+                            <text class="user-name">草间弥尔</text>
+                        </view>
+                        <text class="comment">虾忌与某些水果同吃，虾忌与某些水果同水同吃。</text>
+                    </view>
+                    <view class="comment-item" hover-class="none" hover-stop-propagation="false">
+                        <view class="user">
+                            <image class="user-image" src="../../icon/user-head.jpg" mode="aspectFill" />
+                            <text class="user-name">草间弥尔</text>
+                        </view>
+                        <text class="comment">虾忌与某些水果同吃，虾忌与某些水果同水同吃。</text>
+                    </view>
+                    <!-- </view> -->
+                </scroll-view>
+            </view>
         </view>
+        <!-- 沙龙预约 -->
+        <view class="salon-book">沙龙预约</view>
     </view>
 </view>

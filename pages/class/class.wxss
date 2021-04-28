@@ -1,67 +1,17 @@
-/* pages/salon/salon.wxss */
-/* .salon{
-
-} */
-.salon-main{
+/* pages/class/class.wxss */
+.class-main{
     width: 700rpx;
 	margin: 0 auto;
 	margin-bottom: 100rpx;
 }
-.salon-pic{
-    position: relative;
-}
-.salon-pic .salon-img{
-        width: 700rpx;
-        height: 484rpx;
-        border-top-left-radius: 28rpx;
-        border-top-right-radius: 28rpx;
-        border-bottom-left-radius: 48rpx;
-        border-bottom-right-radius: 48rpx;
-    }
-.icons{
-    position: relative;
-    width: 700rpx;
-    height: 32rpx;
-    line-height: 32rpx;
-    margin-top: 20rpx;
-    margin-bottom: 10rpx;
-    display: flex;
-    justify-content: flex-end;
-}
-.icons image{
-    width: 32rpx;
-    height: 32rpx;
-    margin-right: 30rpx;
-    text-align: center;
-}
-.icons text{
-    /* margin-bottom: 10rpx;
-    margin-right: 20rpx; */
-    font-size: 18rpx;
-    text-align: end;
-    color: rgb(196, 197, 199);
-}
-.salon-body{
-    position: relative;
-    padding-left: 25rpx;
-    width: 675rpx;
-}
-.salon-detail{
-    font-size: 28rpx;
-    line-height: 30rpx;
-    margin-bottom: 50rpx;
-    color: rgb(128, 128, 132);
-}
-.salon-detail text{
-    height: 30rpx;
-    text-align: center;
-}
-.salon-class-intro{
+.class-top{
     position: relative;
 }
 .title{
     color: #1E6CB5;
     font-size: 28rpx;
+    margin-top: 30rpx;
+    margin-bottom: 20rpx;
 }
 .title .title-bar{
     width: 16rpx;
@@ -70,26 +20,9 @@
     margin-right: 20rpx;
     display: inline-block;
     margin-bottom: 10rpx;
-    /* display: inline-block;
-	width: 12rpx;
-	height: 40rpx;
-	background-color: #306FB6;
-	margin-right: 20rpx;
-	border-radius: 4rpx;
-	vertical-align: text-top; */
-}
-.salon-class-intro .class-introduction{
-    width: 620rpx;
-    text-indent: 2em;
-    line-height: 50rpx;
-    margin-top: 20rpx;
-    margin-left: 20rpx;
-    margin-bottom: 50rpx;    
-    color: rgb(128, 128, 132);
-    font-size: 28rpx;
 }
 .team-scroll{
-    height: 490rpx;
+    height: 480rpx;
     margin-top: 40rpx;
     overflow: hidden;
     white-space: nowrap;
@@ -99,7 +32,7 @@
 }
 .team-scroll .team-member{
     display: inline-block;
-    width: 320rpx;
+    width: 300rpx;
     height: 460rpx;
     background-color: #C9DCF0;
     position: relative;
@@ -126,7 +59,7 @@
     width: 100%;
 	height: 140rpx;
     text-align: left;
-    font-size: 22rpx;
+    font-size: 24rpx;
     line-height: 40rpx;
     color: rgb(128, 128, 132);
     /* justify-content: flex-start; */
@@ -134,23 +67,44 @@
     white-space: normal;
     vertical-align: middle;
 }
-/* .comment-block{
-    position: relative;
-    margin-top: 50rpx;
-    width: 700rpx;
-    height: 32rpx;
-    line-height: 32rpx;
+.class-middle{
+    margin-top: 40rpx;
 }
-.comment-block .comment-icon{
-    display: flex;
-    justify-content: flex-end;
-} */
+.class-content-scroll{
+    box-sizing: border-box;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+}
+.class-content-item .class-num{
+    color: rgb(51, 116, 186);
+    font-weight: 700;
+    margin-right: 20rpx;
+}
+.class-content-item .class-name{
+    color: rgb(109, 141, 177);
+}
+.class-time{
+    height: 50rpx;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    border-radius: 10rpx;
+    margin-top: 20rpx;
+    margin-bottom: 30rpx;
+    background-color: #C9DCF0;
+    text-align: center;    
+    color: #1E6CB5;
+}
+.class-time text{
+    display: inline-block;
+}
+.class-comment{
+    position: relative;
+}
 .comment-block{
     position: relative;
     width: 100%;
-    height: 40rpx;
-    /* line-height: 40rpx; */
-    /* text-align: center; */
+    height: 50rpx;
+    line-height: 40rpx;
     margin-top: 30rpx;
     margin-bottom: 30rpx;
 }
@@ -180,6 +134,7 @@
     width: 490rpx;
     height: 210rpx;
     background-color: rgb(224, 232, 240);
+    /* position: relative; */
     padding: 0rpx 40rpx 0rpx 40rpx;
     box-sizing: border-box;
 	margin-right: 30rpx;   
@@ -191,7 +146,8 @@
 .comment-scroll .comment-item .user{
     width: 410rpx;
     height: 60rpx;
-    /* margin-top: 10rpx; */
+    /* position: relative; */
+    margin-top: 10rpx;
     margin-bottom: 30rpx;
     line-height: 60rpx;
     color: rgb(110, 110, 114);
@@ -202,13 +158,14 @@
     width: 350rpx;
     height: 60px;
     padding-top: 20rpx;
+    /* line-height: 60rpx; */
     font-size: 28rpx;
     vertical-align: middle;
 }
 .comment-scroll image{
     width: 60rpx;
 	height: 60rpx;
-    /* text-align: center; */
+    text-align: center;
     border-radius: 100%;
     margin-right: 30rpx;
 }
@@ -229,7 +186,7 @@
     white-space: normal;
     vertical-align: middle;
 }
-.salon-book{
+.class-book{
     position: fixed;
     width: 508rpx;
 	height: 104rpx;

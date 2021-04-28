@@ -1,0 +1,9 @@
+<!-- pages/art-recommend/art-recommend.wxml -->
+<view class="art-recommend-box">
+    <view class="title-box">我的艺术定制</view>
+    <view class="img-box">
+        <text class="tag">雕塑</text>
+        <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="scaleToFill" />
+    </view>
+    <view class="slide">左右滑动查看更多</view>
+</view>

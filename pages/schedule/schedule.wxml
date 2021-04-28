@@ -1,0 +1,45 @@
+<!-- pages/schedule/schedule.wxml -->
+<view class="schedule-top">
+    <view class="schedule-top-box">
+        <view class="schedule-date">
+            <view class="date-bar"></view>
+            <text class="date">2021年4月21日</text>
+        </view>
+        <view class="schedule-name">毕加索 麻胶版画展</view>
+        <view class="schedule-date">
+            <view class="date-bar"></view>
+            <text class="date">2021年4月21日</text>
+        </view>
+        <view class="schedule-name">毕加索 麻胶版画展</view>
+    </view>
+    <view class="schedule-main-box">
+        <view class="main-body">
+            <view class="title">
+                <view class="title-bar"></view>
+                <text class="title-name">我的日程</text>
+            </view>
+            <view class="schedule-item">
+                <view class="item-top">
+                    <view class="item-img">
+                        <image class="item-pic" mode="scaleToFill" src="../../images/broadcast.jpg" />
+                    </view>
+                    <view class="item-detail">
+                        <text class="item-title">毕加索 麻胶版画展</text>
+                        <text class="item-date">2020.12.21-2021.1.5</text>
+                    </view>
+                </view>
+                <view class="schedule-matters">
+                    <view>注意事项：</view>
+                    <view class="matters-content">
+                        《时间的形态》将于2020.11.16-11.26闭展更新部分展品。《时间的形态》将于2020.11.16-11.26闭展更新部分展品。
+                    </view>
+                </view>
+            </view>
+            <!-- 待插入地图组件 -->
+            <map class="map" :enable-scroll='false' :longitude="longitude" :latitude="latitude" :markers="markers" :scale="scale"></map>
+        </view>
+        <view class="main-bottom">......已经到底啦......</view>
+    </view>
+</view>
+<!-- 具体日程信息 -->
+<view class="schedule-main"></view>

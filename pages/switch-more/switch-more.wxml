@@ -1,0 +1,27 @@
+<!-- pages/switch-more/switch-more.wxml -->
+<view class="art-recommend-box">
+    <view class="main-title-box">我的艺术定制</view>
+    <view class="main-body">
+        <view class="body-left">
+            <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="aspectFill" />
+        </view>
+        <view class="body-right">
+            <view class="class-intro">
+                <view class="intro-title">课程介绍</view>
+                <view class="class-detail">
+                    “隐·形”的话题跨越时代和地域空间，又以其普适性、通识性毫无违和感地适用于我们所处的数码世代。此次参展的七位艺术家以各自不同的创作历程、视觉语言、表达方式、技术手段通过绘画、雕塑、摄影、版画、影像.......
+                </view>
+                <view class="click-to-detail">详情</view>
+            </view>
+            <image class="class-img" src="../../images/broadcast.jpg" mode="aspectFill" />
+            <view class="team-intro">
+                <view class="intro-title">团队介绍</view>
+                <view class="team-detail">
+                    “隐·形”的话题跨越时代和地域空间，又以其普适性、通识性毫无违和感地适用于我们所处的数码世代。此次参展的七位艺术家以各自不同的创作历程、视觉语言、表达方式、技术手段通过绘画、雕塑、摄影、版画、影像.......
+                </view>
+                <view class="click-to-detail">详情</view>
+            </view>
+            <view class="enter">Enter></view>
+        </view>
+    </view>
+</view>

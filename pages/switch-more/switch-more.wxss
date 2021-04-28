@@ -1,0 +1,92 @@
+/* pages/switch-more/switch-more.wxss */
+page{
+    background-color: #041746;
+}
+.main-title-box{
+    margin: 40rpx auto;
+    /* margin-bottom: 48rpx; */
+    text-align: center;
+    background-color: #4F73A5;
+    width: 560rpx;
+    height: 82rpx;
+    border-radius: 42rpx;
+    box-shadow: 0 0 8rpx #4F73A5;
+    opacity: 53%;
+    font-size: 24rpx;
+    line-height: 82rpx;
+    color: #fff;
+}
+.main-body{
+    display: flex;
+    justify-content: space-around;
+}
+.body-left{
+    width: 208rpx;
+}
+.recommend-pic{
+    border-radius: 24rpx;
+    border: 2rpx solid #707070;
+    height: 962rpx;
+    width: 100%;
+}
+.body-right{
+    /* display: flex;
+    flex-direction: column; */
+    width: 386rpx;
+}
+/* .class-intro{
+    flex: 1;
+}
+.class-img{
+    flex: 1;
+}
+.team-intro{
+    flex: 1;
+} */
+.intro-title{
+    color: #006fff;
+    font-size: 18rpx;
+    line-height: 24rpx;
+    margin-bottom: 28rpx;
+}
+.class-detail{
+    color: #A9B5C9;
+    font-size: 28rpx;
+    line-height: 56rpx;
+    height: 120rpx;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 28rpx;
+}
+.class-img{
+    /* flex: 1; */
+    height: 208rpx;
+    width: 100%;
+    box-shadow: 0 6rpx 10rpx #000;
+    border-radius: 24rpx;
+    margin-bottom: 80rpx;
+}
+.team-detail{
+    font-size: 28rpx;
+    color: #A9B5C9;
+    line-height: 56rpx;
+    height: 156rpx;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 26rpx;
+}
+.click-to-detail{
+    font-size: 16rpx;
+    line-height: 22rpx;
+    color: #006fff;
+    margin-bottom: 82rpx;
+    text-align: end;
+}
+.enter{
+    /* flex: 1; */
+    color: #fff;
+    font-size: 24rpx;
+    line-height: 32rpx;
+    height: 32rpx;
+    text-align: end;
+}

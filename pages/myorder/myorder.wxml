@@ -1,0 +1,96 @@
+<!-- pages/myorder/myorder.wxml -->
+<view class="myorder-main-box">
+    <view class="order">
+        <view class="item-img">
+            <image class="item-pic" mode="scaleToFill" src="../../images/broadcast.jpg" />
+        </view>
+        <view class="item-block">
+            <view class="item-top">
+                <view class="item-detail">
+                    <text class="item-title">毕加索 麻胶版画展</text>
+                    <text class="item-date">2020.12.21-2021.1.5</text>
+                </view>
+            </view>
+            <view class="bottom-box">
+                <view class="item-bottom">
+                    <view class="order-number">单号：20212003669874521</view>
+                    <view class="order-location">地点：The big wave livehouse</view>
+                    <view class="order-count">数量：one</view>
+                    <view class="order-price">RMB : 36</view>
+                    <view class="order-status">状态：已使用</view>
+                </view>
+                <text class="delete">删除订单</text>
+            </view>
+        </view>
+    </view>
+    <view class="order isUsed">
+        <view class="item-img">
+            <image class="item-pic" mode="scaleToFill" src="../../images/album.jpg" />
+        </view>
+        <view class="item-block">
+            <view class="item-top">
+                <view class="item-detail">
+                    <text class="item-title">毕加索 麻胶版画展</text>
+                    <text class="item-date">2020.12.21-2021.1.5</text>
+                </view>
+            </view>
+            <view class="bottom-box">
+                <view class="item-bottom">
+                    <view class="order-number">单号：20212003669874521</view>
+                    <view class="order-location">地点：The big wave livehouse</view>
+                    <view class="order-count">数量：one</view>
+                    <view class="order-price">RMB : 36</view>
+                    <view class="order-status">状态：已使用</view>
+                </view>
+                <text class="delete">删除订单</text>
+            </view>
+        </view>
+    </view>
+    <view class="order">
+        <view class="item-img">
+            <image class="item-pic" mode="scaleToFill" src="../../images/broadcast.jpg" />
+        </view>
+        <view class="item-block">
+            <view class="item-top">
+                <view class="item-detail">
+                    <text class="item-title">毕加索 麻胶版画展</text>
+                    <text class="item-date">2020.12.21-2021.1.5</text>
+                </view>
+            </view>
+            <view class="bottom-box">
+                <view class="item-bottom">
+                    <view class="order-number">单号：20212003669874521</view>
+                    <view class="order-location">地点：The big wave livehouse</view>
+                    <view class="order-count">数量：one</view>
+                    <view class="order-price">RMB : 36</view>
+                    <view class="order-status">状态：已使用</view>
+                </view>
+                <text class="delete">删除订单</text>
+            </view>
+        </view>
+    </view>
+    <view class="order isUsed">
+        <view class="item-img">
+            <image class="item-pic" mode="scaleToFill" src="../../images/album.jpg" />
+        </view>
+        <view class="item-block">
+            <view class="item-top">
+                <view class="item-detail">
+                    <text class="item-title">毕加索 麻胶版画展</text>
+                    <text class="item-date">2020.12.21-2021.1.5</text>
+                </view>
+            </view>
+            <view class="bottom-box">
+                <view class="item-bottom">
+                    <view class="order-number">单号：20212003669874521</view>
+                    <view class="order-location">地点：The big wave livehouse</view>
+                    <view class="order-count">数量：one</view>
+                    <view class="order-price">RMB : 36</view>
+                    <view class="order-status">状态：已使用</view>
+                </view>
+                <text class="delete">删除订单</text>
+            </view>
+        </view>
+    </view>
+    <view class="main-bottom">......已经到底啦......</view>
+</view>
