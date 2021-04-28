@@ -1,0 +1,96 @@
+<!-- pages/test/test.wxml -->
+<!-- canvas.wxml -->
+<view class="areo-history-track">
+    <view class="history-block">
+        <view class="scroll-line"></view>
+        <view class="scroll-dot"></view>
+        <view class="date">一天前</view>
+        <scroll-view class="history-scroll" scroll-x="true" bindscroll="">
+            <view class="history-item">
+                <view class="pic-box">
+                    <text class="tag">雕塑</text>
+                    <image class="pic" src="../../images/album.jpg" />
+                </view>
+                <view class="text-box">
+                    <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                </view>
+            </view>
+            <view class="history-item">
+                <view class="pic-box">
+                    <text class="tag">雕塑</text>
+                    <image class="pic" src="../../images/album.jpg" />
+                </view>
+                <view class="text-box">
+                    <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                </view>
+            </view>
+            <view class="history-item">
+                <view class="pic-box">
+                    <text class="tag">雕塑</text>
+                    <image class="pic" src="../../images/album.jpg" />
+                </view>
+                <view class="text-box">
+                    <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                </view>
+            </view>
+            <view class="history-item">
+                <view class="pic-box">
+                    <text class="tag">雕塑</text>
+                    <image class="pic" src="../../images/album.jpg" />
+                </view>
+                <view class="text-box">
+                    <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+    <view class="history-block">
+        <view class="scroll-line"></view>
+        <view class="scroll-dot"></view>
+        <view class="date">一天前</view>
+        <scroll-view class="history-scroll" scroll-x="true" bindscroll="">
+            <view class="history-item">
+                <view class="pic-box">
+                    <image class="pic" src="../../images/album.jpg" />
+                </view>
+                <view class="text-box">
+                    <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                </view>
+            </view>
+            <view class="history-item">
+                <view class="pic-box">
+                    <image class="pic" src="../../images/album.jpg" />
+                </view>
+                <view class="text-box">
+                    <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                </view>
+            </view>
+            <view class="history-item">
+                <view class="pic-box">
+                    <image class="pic" src="../../images/album.jpg" />
+                </view>
+                <view class="text-box">
+                    <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                </view>
+            </view>
+            <view class="history-item">
+                <view class="pic-box">
+                    <image class="pic" src="../../images/album.jpg" />
+                </view>
+                <view class="text-box">
+                    <text class="intro">欧初捐赠文物纪念展”分为“诸家“历代陶瓷”、“文房用品”和“青铜器”四个篇章。</text>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>
+<view class="areo-bottom">......已经到底啦......</view>
+<canvas canvas-id="myCanvas" style="margin: 5px; border:1px solid #d3d3d3;" bindtouchstart="start" bindtouchmove="move" bindtouchend="end" />
+<view hidden="{{hidden}}">Coordinates: ({{x}}, {{y}})</view>
+<scroll-view class="scroll-box" scroll-x scroll-with-animation scroll-into-view="{{toView}}" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    <view wx:for="{{list}}" wx:key="{{item}}" class="card-box" id="card_{{index}}">
+        <view class="card">
+            <text>{{item}}</text>
+        </view>
+    </view>
+</scroll-view>

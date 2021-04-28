@@ -1,0 +1,103 @@
+<!-- pages/collection/collection.wxml -->
+<view class="main-box">
+    <view class="search-box">
+        <image class="search-icon" src="../../icon/search.png" mode="center" />
+        <input class="search-block" type="text" />
+    </view>
+    <view class="collection-body">
+        <view class="title">
+            <view class="title-bar"></view>
+            <view class="type">
+                <view wx:for="{{type_item}}" wx:key="id" class="title-name {{item.isActive?'active':''}}" bindtap="handleTitleTap" data-index="{{index}}">
+                    {{item.name}}
+                </view>
+            </view>
+        </view>
+        <view class="collect-item">
+            <view class="item-img">
+                <image class="item-pic" mode="scaleToFill" src="../../images/broadcast.jpg" />
+            </view>
+            <view class="item-block">
+                <view class="item-detail">
+                    <text class="item-title">毕加索 麻胶版画展</text>
+                    <text class="item-date">2020.12.21-2021.1.5</text>
+                    <text class="item-location">广州市黄埔达到315羊城创意园3-08</text>
+                    <view class="item-tags">
+                        <view class="tag">古代</view>
+                        <view class="tag">空间</view>
+                        <view class="tag">幻想</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="collect-item">
+            <view class="item-img">
+                <image class="item-pic" mode="scaleToFill" src="../../images/broadcast2.png" />
+            </view>
+            <view class="item-block">
+                <view class="item-detail">
+                    <text class="item-title">谜物心神</text>
+                    <text class="item-date">2020.12.21-2021.1.5</text>
+                    <text class="item-location">广州市黄埔达到315羊城创意园3-08</text>
+                    <view class="item-tags">
+                        <view class="tag">古代</view>
+                        <view class="tag">空间</view>
+                        <view class="tag">幻想</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="collect-item">
+            <view class="item-img">
+                <image class="item-pic" mode="scaleToFill" src="../../images/broadcast.jpg" />
+            </view>
+            <view class="item-block">
+                <view class="item-detail">
+                    <text class="item-title">毕加索 麻胶版画展</text>
+                    <text class="item-date">2020.12.21-2021.1.5</text>
+                    <text class="item-location">广州市黄埔达到315羊城创意园3-08</text>
+                    <view class="item-tags">
+                        <view class="tag">古代</view>
+                        <view class="tag">空间</view>
+                        <view class="tag">幻想</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="collect-item">
+            <view class="item-img">
+                <image class="item-pic" mode="scaleToFill" src="../../images/broadcast.jpg" />
+            </view>
+            <view class="item-block">
+                <view class="item-detail">
+                    <text class="item-title">毕加索 麻胶版画展</text>
+                    <text class="item-date">2020.12.21-2021.1.5</text>
+                    <text class="item-location">广州市黄埔达到315羊城创意园3-08</text>
+                    <view class="item-tags">
+                        <view class="tag">古代</view>
+                        <view class="tag">空间</view>
+                        <view class="tag">幻想</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="collect-item">
+            <view class="item-img">
+                <image class="item-pic" mode="scaleToFill" src="../../images/broadcast.jpg" />
+            </view>
+            <view class="item-block">
+                <view class="item-detail">
+                    <text class="item-title">毕加索 麻胶版画展</text>
+                    <text class="item-date">2020.12.21-2021.1.5</text>
+                    <text class="item-location">广州市黄埔达到315羊城创意园3-08</text>
+                    <view class="item-tags">
+                        <view class="tag">古代</view>
+                        <view class="tag">空间</view>
+                        <view class="tag">幻想</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="collection-bottom">......已经到底啦......</view>
+</view>

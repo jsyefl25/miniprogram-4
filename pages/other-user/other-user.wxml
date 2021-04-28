@@ -1,0 +1,24 @@
+<!-- pages/other-user/other-user.wxml -->
+<view class="other-user">
+    <view class="other-user-top">
+        <view class="user-img-box">
+            <image class="user-img" src="../../images/user-image.jpg" mode="scaleToFill" />
+        </view>
+        <view class="user-name">想不出名字啦</view>
+        <view class="user-follow">
+            <view class="follow-detail">
+                <text class="followed">关注</text>
+                <text class="num">12</text>
+            </view>
+            <view class="follow-detail">
+                <text class="follower">粉丝</text>
+                <text class="num">12</text>
+            </view>
+            <view class="follow-click " bindtap="handleFollowTap">{{isFollow.text}}</view>
+        </view>
+    </view>
+    <view class="myself-main">
+        <Tabs></Tabs>
+        <view class="myself-main-bottom">......已经到底啦......</view>
+    </view>
+</view>

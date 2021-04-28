@@ -1,0 +1,24 @@
+<!-- pages/market/market.wxml -->
+<view class="art-recommend-box">
+    <view class="title-box">我的艺术定制</view>
+    <view class="img-box box1">
+        <text class="tag">雕塑</text>
+        <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="scaleToFill" />
+    </view>
+    <view class="img-box box2">
+        <text class="tag">雕塑</text>
+        <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="scaleToFill" />
+    </view>
+    <view class="img-box box3">
+        <text class="tag">雕塑</text>
+        <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="scaleToFill" />
+    </view>
+    <view class="img-box box4">
+        <text class="tag">雕塑</text>
+        <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="scaleToFill" />
+    </view>
+    <view class="img-box box5">
+        <text class="tag">雕塑</text>
+        <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="scaleToFill" />
+    </view>
+</view>

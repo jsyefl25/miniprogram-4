@@ -1,0 +1,49 @@
+/* pages/art-recommend/art-recommend.wxss */
+/* 页面背景颜色 */
+page{
+    background-color: #041746;
+}
+.art-recommend-box{
+    margin: 0 48rpx 0 48rpx;
+}
+.title-box{
+    margin: 40rpx auto;
+    /* margin-bottom: 48rpx; */
+    text-align: center;
+    background-color: #4F73A5;
+    width: 560rpx;
+    height: 82rpx;
+    border-radius: 42rpx;
+    box-shadow: 0 0 8rpx #4F73A5;
+    opacity: 53%;
+    font-size: 24rpx;
+    line-height: 82rpx;
+    color: #fff;
+}
+.img-box{
+    display: flex;
+}
+.tag{
+    position: absolute;
+    opacity: 90%;
+    box-shadow: 0 6rpx 12rpx #000;
+    font-size: 28rpx;
+    line-height: 70rpx;
+    padding: 0 58rpx 0 58rpx;
+    height: 70rpx;
+    background-color: #f0f0f0;
+    color: #4F73A5;
+    border-radius: 16rpx;
+}
+.recommend-pic{
+    border-radius: 24rpx;
+    border: 2rpx solid #707070;
+    height: 962rpx;
+    width: 100%;
+}
+.slide{
+    color: #fff;
+    text-align: center;
+    font-size: 26rpx;
+    margin: 40rpx 0 36rpx 0;
+}

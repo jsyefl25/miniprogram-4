@@ -1,0 +1,134 @@
+/* pages/schedule/schedule.wxss */
+.schedule-top{
+    width: 100%;
+    background-color: rgb(4, 23, 70);
+}
+.schedule-top-box{
+    width: 654rpx;
+    height: 400rpx ;
+    margin: 0 auto;
+    color: #fff;
+}
+.schedule-top-box .schedule-date{
+    padding-top: 40rpx;
+    margin-bottom: 18rpx;
+    font-size: 28rpx;
+    line-height: 38rpx;
+    
+    /* font-family: "PingFang SC"; */
+}
+.schedule-top-box .schedule-date .date-bar{
+    display: inline-block;
+    width: 10rpx;
+    height: 24rpx;
+    background-color: #fff56a;
+    /* 另一个bar的颜色#c2dcff */
+    border-radius: 4rpx;
+}
+.schedule-top-box .schedule-date .date{
+    display: inline-block;
+    letter-spacing: 6rpx;
+    padding-left: 40rpx;
+}
+.schedule-top-box .schedule-name
+{
+    padding-left: 50rpx;
+    margin-bottom: 44rpx;
+}
+.schedule-main-box{
+    background-color: #fff;
+    border-top-left-radius: 58rpx;
+    border-top-right-radius: 58rpx;
+}
+.main-body{
+    padding-left: 48rpx;
+    padding-right: 48rpx;
+    padding-top: 82rpx;
+}
+.title{
+    color: #5F83B1;
+    font-size: 28rpx;
+    line-height: 30rpx;
+    margin-bottom: 32rpx;
+    /* font-family: "PingFang SC"; */
+}
+.title .title-bar{
+    display: inline-block;
+    width: 16rpx;
+    height: 30rpx;
+    background-color: #006FFF;
+    border-radius: 4rpx;
+}
+.title .title-name{
+    letter-spacing: 6rpx;
+    padding-left: 40rpx;
+    line-height: 38rpx;
+}
+.schedule-item{
+    padding: 42rpx 42rpx 0 42rpx;
+    height: 356rpx;
+    border: 4rpx solid #139bf5;
+    border-radius: 20rpx;
+    box-shadow: 0 6rpx 10rpx rgb(135, 135, 135);
+    margin-bottom: 30rpx;
+}
+.schedule-item .item-top{
+    height: 136rpx;
+    display: flex;
+}
+.item-img{
+    display: inline-block;
+    box-shadow: rgb(187, 187, 187);
+    /* 阴影 */
+}
+.item-pic{
+    width: 140rpx;
+    height: 140rpx;
+    border-radius: 10rpx;
+    box-shadow: 5rpx 5rpx 5rpx #a3a3a3, -5rpx 0 5rpx #a3a3a3;
+}
+.item-detail{
+    padding-top: 20rpx;
+    padding-left: 50rpx;
+    /* padding-right: 48rpx; */
+    letter-spacing: 2rpx;
+}
+.item-detail .item-title{
+    display: inline-block;
+    line-height: 42rpx;
+    font-size: 32rpx;
+    font-weight: 700;
+    color: #4F73A5;
+}
+.item-detail .item-date{
+    display: inline-block;
+    /* display: flex;
+    flex-wrap: wrap; */
+    line-height: 28rpx;
+    font-size: 20rpx;
+    font-weight: 500;
+    padding-top: 20rpx;
+    color: rgb(142, 142, 142);
+}
+.schedule-item .schedule-matters{
+    padding: 40rpx 10rpx 30rpx 10rpx;
+    font-size: 20rpx;
+    line-height: 36rpx;
+    color: #5F83B1;
+}
+.main-body map{
+    margin: 42rpx 0 0 0;
+    height: 180rpx;
+    width: 650rpx;
+    border: 4rpx solid #139bf5;
+    border-radius: 20rpx;
+    box-shadow: 0 6rpx 10rpx rgb(135,135,135);
+    margin-bottom: 30rpx;
+    overflow: hidden;
+}
+.schedule-main-box .main-bottom{
+    margin-top: 90rpx;
+    color: #006AD7;
+    text-align: center;
+    font-size: 22rpx;
+}

@@ -1,0 +1,94 @@
+/* pages/market/market.wxss */
+page{
+    background-color: #041746;
+}
+.art-recommend-box{
+    margin: 0 48rpx 0rpx 48rpx;
+    height: 100%;
+}
+.title-box{
+    margin: 20rpx auto;
+    text-align: center;
+    background-color: #4F73A5;
+    width: 560rpx;
+    height: 82rpx;
+    border-radius: 42rpx;
+    box-shadow: 0 0 8rpx #4F73A5;
+    opacity: 53%;
+    font-size: 24rpx;
+    line-height: 82rpx;
+    color: #fff;
+}
+.img-box{
+    margin-bottom: 100rpx;
+}
+image{
+    border-radius: 24rpx;
+    box-shadow: 0 6rpx 10rpx #000;
+    color: #F0F0F0;
+    filter: blur(10rpx) brightness(85%);
+}
+.box1{
+    position: absolute;
+    left:318rpx;
+    top: 186rpx;
+}
+.box1 .recommend-pic{
+    height: 248rpx;
+    width: 240rpx;
+}
+.box2{
+    position: absolute;
+    left:150rpx;
+    top: 306rpx;
+    z-index: -1;
+}
+.box2 .recommend-pic{
+    height: 370rpx;
+    width: 390rpx;
+}
+.box3{
+    position: absolute;
+    left:438rpx;
+    top: 434rpx;
+}
+.box3 .recommend-pic{
+    height: 300rpx;
+    width: 216rpx;
+}
+.box4{
+    position: absolute;
+    left:178rpx;
+    top: 842rpx;
+}
+.box4 .recommend-pic{
+    height: 500rpx;
+    width: 460rpx;
+}
+.box5{
+    position: absolute;
+    top: 1098rpx;
+}
+.box5 .recommend-pic{
+    height: 390rpx;
+    width: 400rpx;
+}
+.tag{
+    z-index: 1;
+    position: absolute;
+    opacity: 90%;
+    border: 1rpx solid #4F73A5;
+    font-size: 30rpx;
+    line-height: 40rpx;
+    height: 40rpx;    
+    padding: 14rpx 26rpx 14rpx 26rpx;
+    background-color: #f0f0f0;
+    color: #4F73A5;
+    border-radius: 16rpx;
+}
+/* .img-filter{
+    height: 390rpx;
+    width: 400rpx;
+    color: #F0F0F0;
+    filter: blur(30rpx) brightness(85%);
+} */

@@ -1,0 +1,78 @@
+/* pages/switch-more-right/switch-more-right.wxss */
+page{
+    background-color: #041746;
+}
+.main-title-box{
+    margin: 40rpx auto;
+    /* margin-bottom: 48rpx; */
+    text-align: center;
+    background-color: #4F73A5;
+    width: 560rpx;
+    height: 82rpx;
+    border-radius: 42rpx;
+    box-shadow: 0 0 8rpx #4F73A5;
+    opacity: 53%;
+    font-size: 24rpx;
+    line-height: 82rpx;
+    color: #fff;
+}
+.main-body{
+    display: flex;
+    justify-content: space-around;
+}
+.body-left{
+    width: 208rpx;
+}
+.recommend-pic{
+    border-radius: 24rpx;
+    border: 2rpx solid #707070;
+    height: 962rpx;
+    width: 100%;
+}
+.body-right{
+    width: 386rpx;
+}
+.comment-title{
+    color: #006FFF;
+    line-height: 38rpx;
+    height: 39rpx;
+    font-size: 28rpx;
+    margin-bottom: 48rpx;
+}
+.comment-item{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #A9B5C9;
+}
+.user-box{
+    display: flex;
+    margin-bottom: 24rpx;
+}
+.user-img{
+    width: 76rpx;
+    height: 76rpx;
+    border-radius: 24rpx;
+    box-shadow: 0 6rpx 10rpx #000;
+}
+.user-name{
+    font-size: 28rpx;
+    line-height: 56rpx;
+    height: 56rpx;
+    padding: 10rpx 0 10rpx 42rpx;
+}
+.content{
+    line-height: 56rpx;
+    font-size: 24rpx;
+    overflow: hidden;
+    height: 160rpx; 
+    margin-bottom: 46rpx;  
+}
+.isTopComment{
+    height: 102rpx;
+}
+.enter{
+    color: #fff;
+    font-size: 24rpx;
+    line-height: 32rpx;
+    height: 32rpx;
+    text-align: end;
+}
