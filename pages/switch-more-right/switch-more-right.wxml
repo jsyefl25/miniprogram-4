@@ -2,46 +2,50 @@
 <view class="art-recommend-box">
     <view class="main-title-box">我的艺术定制</view>
     <view class="main-body">
-        <view class="body-right">
-            <view class="comment-title">热门评论</view>
-            <view class="comment">
-                <!-- 首个评论详情高度不同 -->
-                <view class="comment-item">
-                    <view class="user-box">
-                        <image class="user-img" src="../../images/user-image.jpg" mode="scaleToFill" />
-                        <text class="user-name">草间弥生</text>
-                    </view>
-                    <view class="content isTopComment">
-                        “隐·形”的话题跨越时代和地域空间，又以其普适性、通识性毫无违和感地适用于我们所处的数码世代。此次参展的七位艺术家以各自不同的创作历程、视觉语言、表达方式、技术手段通过绘画、雕塑、摄影、版画、影像.......
-                    </view>
-                </view>
-            </view>
-            <view class="comment">
-                <view class="comment-item">
-                    <view class="user-box">
-                        <image class="user-img" src="../../images/user-image.jpg" mode="scaleToFill" />
-                        <text class="user-name">草间弥生</text>
-                    </view>
-                    <view class="content ">
-                        “隐·形”的话题跨越时代和地域空间，又以其普适性、通识性毫无违和感地适用于我们所处的数码世代。此次参展的七位艺术家以各自不同的创作历程、视觉语言、表达方式、技术手段通过绘画、雕塑、摄影、版画、影像.......
+        <movable-area class="move-body">
+            <view class="body-right">
+                <view class="comment-title">热门评论</view>
+                <view class="comment">
+                    <!-- 首个评论详情高度不同 -->
+                    <view class="comment-item">
+                        <view class="user-box">
+                            <image class="user-img" src="../../images/user-image.jpg" mode="scaleToFill" />
+                            <text class="user-name">草间弥生</text>
+                        </view>
+                        <view class="content isTopComment">
+                            “隐·形”的话题跨越时代和地域空间，又以其普适性、通识性毫无违和感地适用于我们所处的数码世代。此次参展的七位艺术家以各自不同的创作历程、视觉语言、表达方式、技术手段通过绘画、雕塑、摄影、版画、影像.......
+                        </view>
                     </view>
                 </view>
-            </view>
-            <view class="comment">
-                <view class="comment-item">
-                    <view class="user-box">
-                        <image class="user-img" src="../../images/user-image.jpg" mode="scaleToFill" />
-                        <text class="user-name">草间弥生</text>
-                    </view>
-                    <view class="content ">
-                        “隐·形”的话题跨越时代和地域空间，又以其普适性、通识性毫无违和感地适用于我们所处的数码世代。此次参展的七位艺术家以各自不同的创作历程、视觉语言、表达方式、技术手段通过绘画、雕塑、摄影、版画、影像.......
+                <view class="comment">
+                    <view class="comment-item">
+                        <view class="user-box">
+                            <image class="user-img" src="../../images/user-image.jpg" mode="scaleToFill" />
+                            <text class="user-name">草间弥生</text>
+                        </view>
+                        <view class="content ">
+                            “隐·形”的话题跨越时代和地域空间，又以其普适性、通识性毫无违和感地适用于我们所处的数码世代。此次参展的七位艺术家以各自不同的创作历程、视觉语言、表达方式、技术手段通过绘画、雕塑、摄影、版画、影像.......
+                        </view>
                     </view>
                 </view>
+                <view class="comment">
+                    <view class="comment-item">
+                        <view class="user-box">
+                            <image class="user-img" src="../../images/user-image.jpg" mode="scaleToFill" />
+                            <text class="user-name">草间弥生</text>
+                        </view>
+                        <view class="content ">
+                            “隐·形”的话题跨越时代和地域空间，又以其普适性、通识性毫无违和感地适用于我们所处的数码世代。此次参展的七位艺术家以各自不同的创作历程、视觉语言、表达方式、技术手段通过绘画、雕塑、摄影、版画、影像.......
+                        </view>
+                    </view>
+                </view>
+                <view class="enter">Enter></view>
             </view>
-            <view class="enter">Enter></view>
-        </view>
-        <view class="body-left">
-            <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="aspectFill" />
-        </view>
+            <movable-view class="move-pic" direction="horizontal" inertia="{{true}}" out-of-bounds="{{true}}" x="1000">
+                <view class="body-left">
+                    <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="aspectFill" />
+                </view>
+            </movable-view>
+        </movable-area>
     </view>
 </view>

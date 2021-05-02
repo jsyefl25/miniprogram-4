@@ -18,7 +18,7 @@ Page({
       hour: hour
     })
     // 早上6点到晚上6点为白天
-    if (hour >= 6 && hour < 18) {
+    if (hour >= 6 && hour < 12) {
       this.setData({
         isDayTime: true
       })
@@ -29,7 +29,35 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+    if (this.data.isDayTime) {
+      wx.setNavigationBarColor({
+        frontColor: '#ffffff',
+        backgroundColor: '#b0d4f8',
+        animation: {
+          duration: 0,
+          timingFunc: 'linear'
+        },
+        success: (result) => {
 
+        },
+        fail: () => { },
+        complete: () => { }
+      });
+    } else {
+      wx.setNavigationBarColor({
+        frontColor: '#ffffff',
+        backgroundColor: '#041746',
+        animation: {
+          duration: 0,
+          timingFunc: 'linear'
+        },
+        success: (result) => {
+
+        },
+        fail: () => { },
+        complete: () => { }
+      });
+    }
   },
 
   /**

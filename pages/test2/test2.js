@@ -1,4 +1,4 @@
-// pages/switch-more/switch-more.js
+// pages/test2/test2.js
 Page({
 
   /**

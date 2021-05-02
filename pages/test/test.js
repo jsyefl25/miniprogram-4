@@ -1,54 +1,113 @@
 // pages/test/test.js
 // canvas.js
-const DEFAULT_PAGE = 0;
+
+import Scratch from '../../utils/scratch.js'
+
+
 Page({
-  data: {
-    x: 0,
-    y: 0,
-    hidden: true
-  },
-  start(e) {
-    this.setData({
-      hidden: false,
-      x: e.touches[0].x,
-      y: e.touches[0].y
+
+  /**
+   * 页面的初始数据
+   */
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+    let This = this;
+    new Scratch(This, {
+      canvasId: 'canvas-demo1',
+      width: 124,
+      height: 120,
+      maskColor: '#F0F0F0',
+      //size:15,
+      //scale:1,
+      scale: .5,
     })
-  },
-  move(e) {
-    this.setData({
-      x: e.touches[0].x,
-      y: e.touches[0].y
+    new Scratch(This, {
+      canvasId: 'canvas-demo2',
+      width: 195,
+      height: 185,
+      maskColor: '#F0F0F0',
+      //size:15,
+      //scale:1,
+      scale: .5,
     })
-  },
-  end(e) {
-    this.setData({
-      hidden: true
+    new Scratch(This, {
+      canvasId: 'canvas-demo3',
+      width: 108,
+      height: 150,
+      maskColor: '#F0F0F0',
+      //size:15,
+      //scale:1,
+      scale: .5,
     })
-  },
-  startPageX: 0,
-  currentView: DEFAULT_PAGE,
-  data: {
-    toView: `card_${DEFAULT_PAGE}`,
-    list: ['Javascript', 'Typescript', 'Java', 'PHP', 'Go']
+    new Scratch(This, {
+      canvasId: 'canvas-demo4',
+      width: 230,
+      height: 250,
+      maskColor: '#F0F0F0',
+      //size:15,
+      //scale:1,
+      scale: .5,
+    })
+    new Scratch(This, {
+      canvasId: 'canvas-demo5',
+      width: 200,
+      height: 195,
+      maskColor: '#F0F0F0',
+      //size:15,
+      //scale:1,
+      scale: .5,
+    })
   },
 
-  touchStart(e) {
-    this.startPageX = e.changedTouches[0].pageX;
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+
   },
 
-  touchEnd(e) {
-    const moveX = e.changedTouches[0].pageX - this.startPageX;
-    const maxPage = this.data.list.length - 1;
-    if (Math.abs(moveX) >= 150) {
-      if (moveX > 0) {
-        this.currentView = this.currentView !== 0 ? this.currentView - 1 : 0;
-      } else {
-        this.currentView = this.currentView !== maxPage ? this.currentView + 1 : maxPage;
-      }
-    }
-    this.setData({
-      toView: `card_${this.currentView}`
-    });
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+
   }
 })
-

@@ -35,7 +35,6 @@
                     </view>
                 </view>
             </view>
-            <!-- 待插入地图组件 -->
             <map class="map" :enable-scroll='false' :longitude="longitude" :latitude="latitude" :markers="markers" :scale="scale"></map>
         </view>
         <view class="main-bottom">......已经到底啦......</view>

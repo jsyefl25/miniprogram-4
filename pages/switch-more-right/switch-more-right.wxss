@@ -20,13 +20,13 @@ page{
     display: flex;
     justify-content: space-around;
 }
-.body-left{
+/* .body-left{
     width: 208rpx;
-}
+} */
 .recommend-pic{
     border-radius: 24rpx;
     border: 2rpx solid #707070;
-    height: 962rpx;
+    height: 974rpx;
     width: 100%;
 }
 .body-right{
@@ -75,4 +75,11 @@ page{
     line-height: 32rpx;
     height: 32rpx;
     text-align: end;
+}
+.move-body{
+    width: 654rpx;
+    height: 100%;
+}
+.move-pic{
+    width: 208rpx;
 }
