@@ -2,7 +2,10 @@
 page{
     background-color: #041746;
 }
-.main-title-box{
+.art-recommend-box{
+    margin: 0 48rpx 0 48rpx;
+}
+.title-box{
     margin: 40rpx auto;
     /* margin-bottom: 48rpx; */
     text-align: center;
@@ -16,8 +19,10 @@ page{
     line-height: 82rpx;
     color: #fff;
 }
-.main-body{
-    margin: 0 48rpx;
+.middle-box{
+    position: relative;
+    width: 100%;
+    height: 962rpx;
 }
 movable-area{
     width: 654rpx;
@@ -28,31 +33,35 @@ movable-view{
     z-index: 10;
     width: 208rpx;
     top: auto;
-    left: auto;
+    left: 0;
+}
+.img-box{
+    position: absolute;
+}
+.tag{
+    position: absolute;
+    opacity: 90%;
+    box-shadow: 0 6rpx 12rpx #000;
+    font-size: 28rpx;
+    line-height: 70rpx;
+    padding: 0 58rpx 0 58rpx;
+    height: 70rpx;
+    background-color: #f0f0f0;
+    color: #4F73A5;
+    border-radius: 16rpx;
 }
 .recommend-pic{
     border-radius: 24rpx;
     border: 2rpx solid #707070;
     height: 962rpx;
-    width: 100%;
+    width: 654rpx;
 }
 .body-right{
     position: absolute;
     top: auto;
-    right: 48rpx;
-    /* display: flex;
-    flex-direction: column; */
+    right: 0;
     width: 386rpx;
 }
-/* .class-intro{
-    flex: 1;
-}
-.class-img{
-    flex: 1;
-}
-.team-intro{
-    flex: 1;
-} */
 .intro-title{
     color: #006fff;
     font-size: 18rpx;
@@ -96,7 +105,7 @@ movable-view{
     width: 386rpx;
     position: absolute;
     top: auto;
-    left: 48rpx;
+    left: 0;
 }
 .comment-title{
     color: #006FFF;
@@ -142,4 +151,10 @@ movable-view{
     line-height: 32rpx;
     height: 32rpx;
     text-align: end;
+}
+.slide{
+    color: #fff;
+    text-align: center;
+    font-size: 26rpx;
+    padding: 40rpx 0 36rpx 0;
 }

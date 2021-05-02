@@ -1,7 +1,13 @@
 <!-- pages/test2/test2.wxml -->
 <view class="art-recommend-box">
-    <view class="main-title-box">我的艺术定制</view>
-    <view class="main-body">
+    <view class="title-box">我的艺术定制</view>
+    <view class="middle-box">
+        <movable-area class="move-body">
+            <movable-view class="img-box" style="width:{{pic_width*2}}rpx" direction="horizontal" inertia="{{true}}" out-of-bounds="{{true}}" x="1000" bindchange="handlemove">
+                <text class="tag" style="opacity:{{opacity_tag}}">雕塑</text>
+                <image class="recommend-pic" src="../../images/recommend-pic.jpg" style="width:{{pic_width*2}}rpx" mode="aspectFill" />
+            </movable-view>
+        </movable-area>
         <view class="body-right" style="opacity:{{opacity_right}}">
             <view class="class-intro">
                 <view class="intro-title">课程介绍</view>
@@ -20,11 +26,6 @@
             </view>
             <view class="enter">Enter></view>
         </view>
-        <movable-area class="move-body">
-            <movable-view class="move-pic" direction="horizontal" inertia="{{true}}" out-of-bounds="{{true}}" x="1000" bindchange="handlemove">
-                <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="aspectFill" />
-            </movable-view>
-        </movable-area>
         <view class="body-left" style="opacity:{{opacity_left}}">
             <view class="comment-title">热门评论</view>
             <view class="comment">
@@ -63,5 +64,8 @@
             </view>
             <view class="enter">Enter></view>
         </view>
+    </view>
+    <view class="slide" bindtouchstart="handletouchstart" bindtouchmove="handletouchmove" style="opacity:{{opacity_tag}}">
+        左右滑动查看更多
     </view>
 </view>

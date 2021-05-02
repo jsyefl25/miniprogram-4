@@ -26,6 +26,7 @@
         <navigator url="../../pages/art-recommend/art-recommend">
             <image class="recommend-pic" src="../../images/recommend-pic.jpg" mode="scaleToFill" />
         </navigator>
+        <!-- canvas层级最高，无法通过z-index改变，点击海报跳转失效 -->
         <canvas class="scratch-canvas" disable-scroll="false" canvas-id='canvas-demo5' bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd"></canvas>
     </view>
 </view>
