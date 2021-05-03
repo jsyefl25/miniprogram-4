@@ -1,19 +1,15 @@
 {
   "pages": [
     "pages/areo-main/areo-main",
-    "pages/test/test",
     "pages/market/market",
-    "pages/switch-more-right/switch-more-right",
-    "pages/switch-more/switch-more",
     "pages/art-recommend/art-recommend",
+    "pages/switch-more/switch-more",
+    "pages/myorder/myorder",
     "pages/user-self/user-self",
     "pages/collection/collection",
     "pages/other-user/other-user",
-    "pages/myorder/myorder",
     "pages/schedule/schedule",
     "pages/order-form/order-form",
-    "pages/class/class",
-    "pages/salon/salon",
     "pages/index/index",
     "pages/logs/logs"
   ],
